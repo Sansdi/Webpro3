@@ -61,3 +61,5 @@ class Home extends CI_Controller
         $this->load->view('templates/templates-user/footer');
     }
 }
+
+// Pertemuan 2
