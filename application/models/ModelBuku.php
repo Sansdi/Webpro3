@@ -74,6 +74,12 @@ class ModelBuku extends CI_Model
         $this->db->where($where);
         return $this->db->get();
     }
+
+    public function getLimitBuku()
+    {
+        $this->db->limit(5);
+        return $this->db->get('buku');
+    }
 }
 
-// Pertemuan 2 
+// Pertemuan 2 , 3, 4, 5, 6
